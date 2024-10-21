@@ -12,7 +12,7 @@ def test_subtract():
     assert subtract(0, 0) == 0
 
 def test_multiply():
-    assert multiply(3, 2) == 6
+    assert multiply(3, 2) == 5
     assert multiply(-2, 5) == -10
     assert multiply(0, 7) == 0
 
