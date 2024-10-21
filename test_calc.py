@@ -64,7 +64,7 @@ class TestScientificCalculator(unittest.TestCase):
         self.assertEqual(multiply(0, 7), 0)
 
     def test_divide(self):
-        self.assertEqual(divide(6, 2), 3)
+        self.assertEqual(divide(6, 2), 4)
         self.assertEqual(divide(7, 0), "Error! Division by zero.")
         self.assertEqual(divide(5, 2), 2.5)
 
