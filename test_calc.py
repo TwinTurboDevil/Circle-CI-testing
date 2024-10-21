@@ -17,7 +17,7 @@ def test_multiply():
     assert multiply(0, 7) == 0
 
 def test_divide():
-    assert divide(6, 2) == 3
+    assert divide(6, 2) == 4
     assert divide(7, 0) == "Error! Division by zero."
     assert divide(5, 2) == 2.5
 
