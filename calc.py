@@ -31,7 +31,7 @@ def cosine(x):
 def tangent(x):
     return math.tan(math.radians(x))
 
-def logarithm(x, base):
+def logarithm(x):
     if x <= 0 or base <= 0 or base == 1:
         return "Error! Invalid input for logarithm."
     return math.log(x, base)
