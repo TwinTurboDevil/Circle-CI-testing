@@ -22,14 +22,6 @@ def square_root(x):
         return "Error! Negative value for square root."
     return math.sqrt(x)
 
-def sine(x):
-    return math.sin(math.radians(x))
-
-def cosine(x):
-    return math.cos(math.radians(x))
-
-def tangent(x):
-    return math.tan(math.radians(x))
 
 def logarithm(x, base):
     if x <= 0 or base <= 0 or base == 1:
@@ -49,9 +41,6 @@ def display_menu():
     print("4. Divide")
     print("5. Power (x^y)")
     print("6. Square Root")
-    print("7. Sine (sin)")
-    print("8. Cosine (cos)")
-    print("9. Tangent (tan)")
     print("10. Logarithm (log base x)")
     print("11. Factorial")
     print("12. Exit")
